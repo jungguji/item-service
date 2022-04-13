@@ -3,7 +3,7 @@ package hello.itemservice.domain.item;
 import lombok.*;
 
 @Getter @Setter
-@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@NoArgsConstructor(access = AccessLevel.PUBLIC)
 public class Item {
 
     private Long id;
